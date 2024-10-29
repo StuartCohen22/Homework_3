@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unique Fruits in Basket A</title>
+</head>
+<body>
+    <h1>Fruits in Basket A but not in Basket B</h1>
+    {% if log_html %}
+        <ul>
+            {% for fruit in log_html %}
+                <li>{{ fruit[0] }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No unique fruits found.</p>
+    {% endif %}
+</body>
+</html>

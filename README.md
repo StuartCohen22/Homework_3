@@ -1,16 +1,29 @@
-# Homework_3
+Example 3: This project shows how we can connect PostgreSQL with flask and show SQL results.
 
-# Flask PostgreSQL Fruit Basket Program
-This Flask app interacts with a PostgreSQL database to manage and display unique fruits from two baskets. Specifically:
+## Quick Start
+### Local Test Setup
+First, we need to install a Python 3 virtual environment with:
+```
+sudo apt-get install python3-venv
+```
 
-- Inserts a new fruit, "Cherry", into basket_a.
-- Deletes "Cucumber" from basket_a.
-- Displays fruits that are unique to basket_a (not found in basket_b) on the webpage.
+Create a virtual environment:
+```
+python3 -m venv python_venv
+```
 
-# Requirements
-- Python with Flask and Psycopg2.
-- PostgreSQL with tables basket_a and basket_b pre-configured.
-  
-# Usage
-1. Run the app with python main.py.
-2. Visit http://127.0.0.1:5000 to see the unique fruits in basket_a.
+You need to activate the virtual environment when you want to use it:
+```
+source python_venv/bin/activate
+```
+
+To fufil all the requirements for the python server, you need to run:
+```
+pip3 install -r requirements.txt
+```
+Because we are now inside a virtual environment. We do not need sudo.
+
+Then you can start the server with:
+```
+python3 main.py
+```
