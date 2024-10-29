@@ -1,5 +1,5 @@
 
-## Quick Start
+## Quick Start - Team Members: Stuart Cohen and Lucas Kuhn
 ### Local Test Setup
 First, we need to install a Python 3 virtual environment with:
 ```
